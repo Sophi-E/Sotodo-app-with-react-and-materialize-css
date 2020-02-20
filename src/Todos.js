@@ -17,7 +17,7 @@ const Todos = ({ todos, deleteTodo }) => {
       );
     })
   ) : (
-    <p>Done with todos. yay!!!</p>
+    <p className="center">Done with todos. yay!!!</p>
   );
   return <div className="collection">{TodoList}</div>;
 };
